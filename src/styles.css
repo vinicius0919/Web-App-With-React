@@ -1,0 +1,76 @@
+input {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 10%;
+  font: 1rem sans-serif;
+  color: rgba(50, 0, 100, 1);
+  box-shadow: 0px 0px 15px 5px rgba(50, 0, 100, 0.5);
+}
+h1#tittle {
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+  text-shadow: 1px 1px 5px #565400;
+}
+.container.text-center {
+  margin-top: 10rem;
+}
+body {
+  background: linear-gradient(72deg, #000221, #7440f5, #565400, #0058d4);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 2s ease infinite;
+  -moz-animation: AnimationName 2s ease infinite;
+  -o-animation: AnimationName 2s ease infinite;
+  animation: AnimationName 5s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 77%;
+  }
+  50% {
+    background-position: 100% 24%;
+  }
+  100% {
+    background-position: 0% 77%;
+  }
+}
